@@ -185,3 +185,4 @@ InitializeBoard();
 
 resetButton.onclick = resetBoard;
 
+
