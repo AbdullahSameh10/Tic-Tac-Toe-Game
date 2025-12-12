@@ -1,5 +1,5 @@
 let playerTurn = "X"; // Current player's turn
-const NUMBER_OF_ROWS = 4; // Number of rows and columns in the Tic Tac Toe Board
+const NUMBER_OF_ROWS = 3; // Number of rows and columns in the Tic Tac Toe Board
 const turns = NUMBER_OF_ROWS ** 2; // Maximum number of turns in the game
 let turnsCounter = 0; // Count the numbers of played turns to detect if the board is full
 
@@ -184,3 +184,4 @@ InitializeBoard();
 //-------------------------------------------------
 
 resetButton.onclick = resetBoard;
+
